@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sunilkumar.github.io/static/css/main.184e40e9.css",
-    "main.js": "/sunilkumar.github.io/static/js/main.f2e20813.js",
-    "static/js/787.13a6e0da.chunk.js": "/sunilkumar.github.io/static/js/787.13a6e0da.chunk.js",
-    "static/media/WhatsApp Image 2023-09-19 at 12.37.40 - Copy.jpeg": "/sunilkumar.github.io/static/media/WhatsApp Image 2023-09-19 at 12.37.40 - Copy.085cb2fd01902840a183.jpeg",
-    "index.html": "/sunilkumar.github.io/index.html",
-    "main.184e40e9.css.map": "/sunilkumar.github.io/static/css/main.184e40e9.css.map",
-    "main.f2e20813.js.map": "/sunilkumar.github.io/static/js/main.f2e20813.js.map",
-    "787.13a6e0da.chunk.js.map": "/sunilkumar.github.io/static/js/787.13a6e0da.chunk.js.map"
+    "main.css": "/static/css/main.184e40e9.css",
+    "main.js": "/static/js/main.4d8a4ebc.js",
+    "static/js/787.13a6e0da.chunk.js": "/static/js/787.13a6e0da.chunk.js",
+    "static/media/WhatsApp Image 2023-09-19 at 12.37.40 - Copy.jpeg": "/static/media/WhatsApp Image 2023-09-19 at 12.37.40 - Copy.085cb2fd01902840a183.jpeg",
+    "index.html": "/index.html",
+    "main.184e40e9.css.map": "/static/css/main.184e40e9.css.map",
+    "main.4d8a4ebc.js.map": "/static/js/main.4d8a4ebc.js.map",
+    "787.13a6e0da.chunk.js.map": "/static/js/787.13a6e0da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.184e40e9.css",
-    "static/js/main.f2e20813.js"
+    "static/js/main.4d8a4ebc.js"
   ]
 }
