@@ -8,6 +8,7 @@ import Skillspage from './pages/Skillpage/Skillpage';
 import Mainnav from './components/Mainnav/Mainnav';
 import { TypeAnimation } from 'react-type-animation'; 
 import Contactpage from './pages/Contactpage/Contactpage';
+import { Home } from '@mui/icons-material';
 function HomePage() {
   return ( 
     <div>
@@ -32,6 +33,7 @@ function App() {
     <Router>
       <div className="App">
         <Mainnav />
+        <HomePage />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<Aboutpage />} /> {/* Home page */}
