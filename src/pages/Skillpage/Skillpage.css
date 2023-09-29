@@ -1,0 +1,32 @@
+/* .Skill-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} */
+.Skill-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gray;
+    border-radius: 10px;
+  }
+  
+  .Skill-item {
+    text-align: center;
+    margin: 10px;
+    flex: 0 0 calc(20% - 20px); /* Distribute items in rows of 5 */
+    /* background-color: white; */
+    /* border-radius: 10px; */
+  }
+  .Skill-item:hover {
+    transform: scale(1.2); /* Increase the size by 20% */
+  }
+  
+  .Logo-handler {
+    width: 80px;
+    height: auto;
+  }
+  .Skillpage-main{
+    margin: 10px;
+  }

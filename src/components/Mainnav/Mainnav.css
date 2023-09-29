@@ -1,0 +1,43 @@
+.Mainnav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    z-index: 100;
+    top: 0;
+    position: sticky;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    box-shadow:inset;
+
+}
+.Mainnav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.Mainnav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-right: 20px;
+}
+.Mainnav-text{
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    /* font-weight: 200; */
+}
+#lee{
+    text-decoration: none;
+}
+.Mainnav-text:hover{
+    color: antiquewhite;
+}

@@ -1,0 +1,64 @@
+.Experience-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.tcs-image{
+    border-radius: 10px;
+    margin: 10px;
+    /* padding-right: 10px; */
+    
+}
+/* .rotate-image {
+    perspective: 1000px; /* Set the perspective for the 3D effect */
+    /* transform-style: preserve-3d; Maintain 3D transformations of child elements */
+  
+    /* Apply 3D rotation along the X and Y axes */
+    /* transform: rotateX(45deg) rotateY(45deg); */
+  /* } */ 
+/* Define the cube container */
+.cube {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: rotateCube 5s linear infinite; /* Apply the animation */
+    transform-style: preserve-3d;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Define cube faces */
+  .face {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 2px solid #d33f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .front { transform: translateZ(100px);  }
+  .back { transform: translateZ(-100px) rotateY(180deg); } 
+  .right { transform: rotateY(90deg) translateZ(100px);}
+  .left { transform: rotateY(-90deg) translateZ(100px);  }
+  /* .top { transform: rotateX(90deg) translateZ(100px);  }
+  .bottom { transform: rotateX(-90deg) translateZ(100px);} */
+  
+  /* Define the animation */
+  @keyframes rotateCube {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(0deg) rotateY(360deg); }
+  }
+  .Experience-main{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .Experience-description{
+    margin: 10px;
+
+  }
