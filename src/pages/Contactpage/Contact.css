@@ -17,11 +17,11 @@
     background-color: gray;
     margin-top: 40px;
     border-radius: 10px;
-    padding-left: 20vh;
-    padding-right: 20vh;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .Contact-flex:hover{
-color: aliceblue;
+color: white;
 }
 #id1{
     text-decoration: none;
