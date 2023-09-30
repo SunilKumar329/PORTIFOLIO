@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Experiencepage from './pages/Experiencepage/Experiencepage';
@@ -8,7 +8,7 @@ import Skillspage from './pages/Skillpage/Skillpage';
 import Mainnav from './components/Mainnav/Mainnav';
 import { TypeAnimation } from 'react-type-animation'; 
 import Contactpage from './pages/Contactpage/Contactpage';
-
+import {HashRouter} from 'react-router-dom';
 function HomePage() {
   return ( 
     <div>
@@ -29,18 +29,18 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Mainnav />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<Aboutpage />} />
-          <Route path="/experience" element={<Experiencepage />} />
-          <Route path="/skills" element={<Skillspage />} />
-          <Route path="/contact" element={<Contactpage />} />
-        </Routes>
-      </div>
-    </Router>
+        <Router>
+            <div className="App">
+                <Mainnav />
+                <HashRouter>
+                  <Route exact path="/" component={HomePage} />
+                  <Route exact path="/about" component={Aboutpage } />
+                  <Route exact path="/experience" component={Experiencepage} />
+                  <Route exact path="/skills" component={Skillspage} />
+                  <Route exact path="/contact" component={Contactpage} />
+                </HashRouter>
+              </div>
+      </Router>
   );
 }
 
