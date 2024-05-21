@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed import here
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Experiencepage from './pages/Experiencepage/Experiencepage';
@@ -29,7 +29,7 @@ function HomePage() {
 
 function App() {
   return (
-    <Router> {/* Changed HashRouter to Router here */}
+    <Router>
       <div className="App">
         <Mainnav />
         <Routes>
@@ -40,7 +40,7 @@ function App() {
           <Route path="/contact" element={<Contactpage />} />
         </Routes>
       </div>
-    </Router> 
+    </Router>
   );
 }
 
