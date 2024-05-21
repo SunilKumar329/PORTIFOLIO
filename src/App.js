@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed import here
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Experiencepage from './pages/Experiencepage/Experiencepage';
@@ -15,12 +15,7 @@ function HomePage() {
       <Navbar />
       <TypeAnimation
         className='app-header'
-        sequence={[
-          "Hello, I'm Sunil Kumar, a Fullstack Developer, and this is my Portfolio...", 
-          1000, 
-          ' ', 
-          500
-        ]}
+        sequence={["Hello, I'm Sunil Kumar, a Fullstack Developer, and this is my Portfolio...", 1000, ' ', 500]}
         style={{ fontSize: '2em' }}
         speed={55}
         repeat={Infinity}
@@ -34,7 +29,7 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
+    <Router> {/* Changed HashRouter to Router here */}
       <div className="App">
         <Mainnav />
         <Routes>
@@ -45,7 +40,7 @@ function App() {
           <Route path="/contact" element={<Contactpage />} />
         </Routes>
       </div>
-    </Router>
+    </Router> 
   );
 }
 
